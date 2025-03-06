@@ -2,7 +2,7 @@ Summary:	Xapp status icon plugin for Xfce panel
 Summary(pl.UTF-8):	Wtyczka ikony statusu Xapp dla panelu Xfce
 Name:		xfce4-xapp-status-plugin
 Version:	0.4.1
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		X11/Applications
 #Source0Download: https://github.com/linuxmint/xfce4-xapp-status-plugin/tags
@@ -46,7 +46,7 @@ rm -rf $RPM_BUILD_ROOT
 %meson_install
 
 # not supported by glibc (as of 2.40)
-%{__rm} -r $RPM_BUILD_ROOT%{_localedir}/ie
+%{__rm} -r $RPM_BUILD_ROOT%{_localedir}/{ie,rue}
 
 %find_lang %{name}
 
