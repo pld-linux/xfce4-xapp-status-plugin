@@ -1,13 +1,13 @@
 Summary:	Xapp status icon plugin for Xfce panel
 Summary(pl.UTF-8):	Wtyczka ikony statusu Xapp dla panelu Xfce
 Name:		xfce4-xapp-status-plugin
-Version:	0.4.1
-Release:	2
+Version:	0.4.3
+Release:	1
 License:	GPL v2+
 Group:		X11/Applications
 #Source0Download: https://github.com/linuxmint/xfce4-xapp-status-plugin/tags
 Source0:	https://github.com/linuxmint/xfce4-xapp-status-plugin/archive/%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	468dcae3e36c34dd878afa24d4730493
+# Source0-md5:	f921df14af6509ac45062b5d7d2b3f00
 URL:		https://github.com/linuxmint/xfce4-xapp-status-plugin
 BuildRequires:	gettext-tools
 BuildRequires:	glib2-devel >= 1:2.37.3
